@@ -4,9 +4,9 @@
 ## Built using React with request sent out to Unsplash for images
 ` Instructions `
 
-`  `
+` Type desired search term for the photos you'd like to display from Unsplash.com `
 
-`  `
+` Press enter! `
 
 ---
 ### Showcases Understanding Of
@@ -19,4 +19,4 @@
 ` form control differences around React `
 ` Using React to take control of html with state `
 ` Promises / Await / Async `
-`  `
+` Opening up object from API and displaying certain object properties `
