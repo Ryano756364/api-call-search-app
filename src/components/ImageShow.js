@@ -1,10 +1,10 @@
 // This file will show each individual image
-import 'ImageShow.css';
+import './ImageShow.css';
 
-function ImageShow(){
+function ImageShow(props){
   return (
     <div>
-      ImageShow
+      {props.image.id}
     </div>
   )
 }
