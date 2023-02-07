@@ -9,8 +9,7 @@ const searchImages = async (searchTerm) => {
       query: searchTerm,
     }
   });
-  console.log(response.data.results); //returns array of images coming back from api
-  return response;
+  return response.data.results; //returns array of images coming back from api
 };
 
 export default searchImages;

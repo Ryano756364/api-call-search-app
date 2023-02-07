@@ -1,9 +1,19 @@
-import 'SearchBar.css';
+import './SearchBar.css';
 
-function SearchBar(){
+function SearchBar(props){
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    props.onSubmit(
+
+    )
+  };
+
   return (
     <div>
-      SearchBar
+        <form onSubmit={handleFormSubmit}>
+          <input />
+        </form>
     </div>
   )
 }
