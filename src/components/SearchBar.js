@@ -1,24 +1,22 @@
 import './SearchBar.css';
-import {useState} from 'react';  //Step 1
+import {useState} from 'react';
 
 function SearchBar(props){
-  const [term, setTerm] = useState(''); //Step 1
+  const [term, setTerm] = useState('');
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    props.onSubmit(term); //Step 6 -> pass to parent
+    props.onSubmit(term);
   };
 
-  const handleChange = (event) => {  //Step 2
-    setTerm(event.target.value); //Step 3
-    //Step 4 -> update state
+  const handleChange = (event) => {  
+    setTerm(event.target.value); 
   }
 
   return (
     <div>
         <form onSubmit={handleFormSubmit}>
-          <input value={term} onChange={handleChange} placeholder="Search For Image" />  {/* Step 2 */}
-          {/* Step 5 -> add value with term */}
+          <input value={term} onChange={handleChange} placeholder="Search For Image" />
         </form>
     </div>
   )
