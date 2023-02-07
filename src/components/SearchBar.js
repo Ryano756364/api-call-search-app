@@ -8,6 +8,7 @@ function SearchBar(props){
     event.preventDefault();
     props.onSubmit(term);
   };
+  
 
   const handleChange = (event) => {  
     setTerm(event.target.value); 

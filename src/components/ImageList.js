@@ -1,10 +1,10 @@
 // This file will be a list of all images available
-import 'ImageList.css';
+import './ImageList.css';
 
-function ImageList(){
+function ImageList(props){
   return (
     <div>
-      ImageList
+      ImageList: {props.images.length}
     </div>
   )
 }
