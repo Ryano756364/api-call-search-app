@@ -15,9 +15,9 @@ function SearchBar(props){
   }
 
   return (
-    <div>
+    <div className='search-bar'>
         <form onSubmit={handleFormSubmit}>
-          <input value={term} onChange={handleChange} placeholder="Search For Image" />
+          <input value={term} onChange={handleChange} placeholder="Search For Image and Press ENTER" />
         </form>
     </div>
   )

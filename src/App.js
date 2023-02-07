@@ -2,9 +2,10 @@ import searchImages from "./api";
 import SearchBar from "./components/SearchBar";
 import ImageList from "./components/ImageList";
 import {useState} from 'react';
+import './App.css';
 
 function App(){
-  
+
   const [images, setImages] = useState([]); 
 
   const onHandleSubmit = async (term) => {
@@ -12,7 +13,7 @@ function App(){
   };
 
   return (
-    <div>
+    <div className="app">
       <SearchBar onSubmit={onHandleSubmit}/>
       <ImageList images={images}/>
     </div>
