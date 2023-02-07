@@ -17,6 +17,6 @@
 ` Destructuring or using whole prop object in component `
 ` event.preventDefault() upon form submission `
 ` form control differences around React `
-`  `
+` Using React to take control of html with state `
 `  `
 `  `
