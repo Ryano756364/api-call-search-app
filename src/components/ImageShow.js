@@ -4,7 +4,7 @@ import './ImageShow.css';
 function ImageShow(props){
   return (
     <div>
-      {props.image.id}
+      <img src={props.image.urls.regular} alt={props.image.alt_description} />
     </div>
   )
 }
