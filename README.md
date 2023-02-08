@@ -1,7 +1,8 @@
 # API Call Search Application
+Live version of hosted site can be found here! https://api-call-search-app.web.app
 
 
-## Built using React with request sent out to Unsplash for images
+## Built using React + Unsplash for images + hosted on Firebase
 ` Instructions `
 
 ` Type desired search term for the photos you'd like to display from Unsplash.com `
