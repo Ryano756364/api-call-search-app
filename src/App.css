@@ -1,8 +1,17 @@
 html {
   background-color: #eee;
   font-size: 62.5%;  /* 10px setup strategy for global font*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 .app {
   padding: 1rem;
 }
+
+.app h1{
+  font-size: 3rem;
+}
+
+.app h2{
+  font-weight: 300;
+} 

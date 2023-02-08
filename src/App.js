@@ -14,6 +14,10 @@ function App(){
 
   return (
     <div className="app">
+      <div>
+        <h1>Image API Project </h1>
+        <h2>Please enter for an image you'd like to search and press enter</h2>
+      </div>
       <SearchBar onSubmit={onHandleSubmit}/>
       <ImageList images={images}/>
     </div>
